@@ -1,0 +1,22 @@
+body {
+  /* background-image: url("../img/1234.jpg"); */
+  color: black;
+  background-color: aliceblue;
+  background-size: cover;
+}
+
+.nav-link:hover {
+  background-color: rgb(48, 44, 44);
+  color: white !important;
+}
+#candidatesResults:hover {
+  background-color: rgb(30, 33, 39);
+  color: white !important;
+}
+
+#main_root {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5em;
+  height: max-content;
+}
